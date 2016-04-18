@@ -27,28 +27,49 @@ body {
     height: 300px;
 }
 
-h1 {
+#wrapper h1 {
     margin: 145px 0 0 0;
     font-size: 28px;
     font-weight: bold;
 }
 
-h1 span {
+#wrapper h1 span {
     color: #f9c40b;
 }
 
-h2 {
+#wrapper h2 {
     font: 12px arial, Helvetica, sans-serif;
     color: #f9c40b;
     font-weight: 100;
 }
 
-h3, p {
+#wrapper h3, p {
     font: 12px arial, Helvetica, sans-serif;
     color: white;
     font-weight: 100;
 }
 
-a {
+#wrapper a {
     color: #29B4F0;
+}
+
+#foot {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Microsoft Yahei';
+}
+
+#foot #copyright {
+    margin: 0 auto;
+}
+
+#foot #copyright a {
+    color: white;
+    text-decoration: none;
+}
+
+#foot #copyright a:hover {
+    text-decoration: underline;
 }

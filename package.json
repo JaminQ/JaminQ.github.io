@@ -1,0 +1,25 @@
+{
+  "name": "Jamin's Website",
+  "version": "0.0.1",
+  "description": "Jamin's personal website.",
+  "homepage": "https://github.com/JaminQ/JaminQ.github.io",
+  "main": "",
+  "scripts": {
+    "test": "mocha",
+    "dist": "gulp"
+  },
+  "keywords": [
+    "website",
+    "blog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaminQ/JaminQ.github.io.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "author": "JaminQian",
+  "license": "MIT"
+}
